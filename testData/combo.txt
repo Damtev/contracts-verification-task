@@ -1,0 +1,16 @@
+Warning: line 26: Code inside conditional block is unreachable
+ERROR: line 15: Variable 'k' is not declared
+Warning: line 5: Block has empty body
+Warning: line 3: Block has empty body
+Warning: line 32: Block has empty body
+Warning: line 1: Block has empty body
+Warning: line 20: Condition is always true
+ERROR: line 10: Variable 'x' is not declared
+ERROR: line 12: Variable 'x' is accessed before initialization
+ERROR: line 5: Function duplicates has duplicated parameters
+Warning: line 37: Block has empty body
+ERROR: line 2: Function dup is was already declared
+ERROR: line 14: Function dup with 2 parameters is not declared
+ERROR: line 43: Block has multiple returns
+Warning: line 9: Expression is unused
+Warning: line 2: Block has empty body

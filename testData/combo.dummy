@@ -1,0 +1,48 @@
+fun dup() {} // empty body, warning
+fun dup() {} // duplicate fun, error
+fun dup(a) {} // overloading function, it is ok
+
+fun duplicates(a, a, a) {} // duplicated parameters, error
+
+fun test() {
+    var u = 5;
+    u; // unused expression, warning
+    dup(x); // access to x without declaration
+    var x;
+    dup(x); // access to x without initialization
+    var a = bar(); // duplicate declaration
+    a = dup(1, 2); // unknown fun dup with 2 parameters, error
+    k = 3; // undeclared variable, error
+}
+
+fun ifstatements() {
+    var x = 5;
+    if (true) { // always true, warning
+        x = 1;
+    } else {
+        x = 0;
+    }
+
+    if (false) { // unreachable code, warning
+        x = 1;
+    } else {
+        x = 0;
+    }
+
+    if (x) {} // empty body, warning
+
+    return x;
+}
+
+fun empty() {} // empty body, warning
+
+fun bar() {
+    return 3;
+}
+
+fun returns() {
+    var x = 5; // multiple return statements, error
+    return x;
+    x = 8;
+    return x;
+}

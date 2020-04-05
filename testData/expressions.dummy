@@ -1,0 +1,7 @@
+fun foo() {
+    var x = 2;
+    // unused expressions
+    x;
+    5;
+    true;
+}

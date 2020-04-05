@@ -1,0 +1,3 @@
+Warning: line 4: Expression is unused
+Warning: line 5: Expression is unused
+Warning: line 6: Expression is unused

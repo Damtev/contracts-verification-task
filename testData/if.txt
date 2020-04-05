@@ -1,0 +1,2 @@
+Warning: line 4: Code inside conditional block is unreachable
+Warning: line 2: Condition is always true

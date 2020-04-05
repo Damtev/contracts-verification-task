@@ -1,0 +1,12 @@
+fun foo() {
+    if (true) {
+        var x = 3;
+        if (false) {
+            return 5;
+        } else {
+            return 6;
+        }
+    } else {
+        return 3;
+    }
+}

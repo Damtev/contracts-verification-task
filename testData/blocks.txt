@@ -1,0 +1,3 @@
+Warning: line 1: Block has empty body
+Warning: line 5: Block has empty body
+Warning: line 8: Block has empty body

@@ -1,0 +1,16 @@
+fun foo() {
+    return 42;
+}
+
+fun foo() { // duplicated fun
+    return 42;
+}
+
+fun foo(x) { // overloading, all is ok
+    return 42;
+}
+
+fun bar(x, x) { // duplicated parameters
+    foo(x, x); // no such function with 2 parameters
+    zoo(); // unknown function
+}

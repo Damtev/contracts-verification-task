@@ -1,0 +1,9 @@
+fun foo() {}
+
+fun bar() {
+    var x = true;
+    if (x) {}
+    if (x) {
+        return 3;
+    } else {}
+}

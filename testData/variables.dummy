@@ -1,0 +1,10 @@
+fun test() {
+    bar(x);
+    var x;
+    bar(x);
+    var x = 1;
+}
+
+fun bar(x) {
+    return 5;
+}

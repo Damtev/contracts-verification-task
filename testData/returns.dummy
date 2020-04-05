@@ -1,0 +1,5 @@
+fun foo() {
+    return 5;
+    var x = 3;
+    return x;
+}

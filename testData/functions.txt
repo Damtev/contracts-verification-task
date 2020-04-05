@@ -1,0 +1,4 @@
+ERROR: line 15: Function 'zoo' is not declared
+ERROR: line 13: Function bar has duplicated parameters
+ERROR: line 14: Function foo with 2 parameters is not declared
+ERROR: line 5: Function foo is was already declared
